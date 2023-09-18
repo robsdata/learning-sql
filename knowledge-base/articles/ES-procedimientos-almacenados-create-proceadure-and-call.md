@@ -5,9 +5,9 @@
 * Identificar diferentes modalidades que posee el SQL para mejorar el acceso a la información almacenada en la base de datos.
 
 * Conocer otras formas de tratamiento de datos por medio de objetos almacenados en la base de datos.
-  
----
 
+
+## **FUNCIONES**
 * Funciones de fila única
 * Funciones de agrupación
 
