@@ -1,5 +1,5 @@
 
-# Disparadores y Procedimientos
+# **DISPARADORES Y PROCEDIMIENTOS**
 ---
 
 * Identificar diferentes modalidades que posee el SQL para mejorar el acceso a la información almacenada en la base de datos.
@@ -13,7 +13,7 @@
 
 La diferencia fundamental es que mientras las primeras realizan la acción sobre una única fila cada vez, las de agrupación obtienen un resultado a partir de un conjunto de elementos. Se trata de seleccionar un conjunto de elementos, filtrarlos por las condiciones que creamos oportunas y obtener un resultado a partir de él.
 
-## Funciones de fila única
+## **FUNCIONES DE FILA UNICA**
 Estas funciones operan solo en una única fila y retorna un valor por cada una. Hay diferentes tipos de funciones de fila única:
 
 * Carácter
