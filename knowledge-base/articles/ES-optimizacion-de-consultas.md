@@ -1,11 +1,11 @@
 
-# OPTIMIZACION DE CONSULTAS
+# **OPTIMIZACION DE CONSULTAS**
 ---
  	
 * Comprender la importancia de optimizar instrucciones de acceso a base de datos.
 * Identificar componentes que permiten mejorar el acceso a la información.
 
-## CONSULTAS COMBINADAS
+## **CONSULTAS COMBINADAS**
 
 Las consultas combinadas pueden ser de tres tipos:
 
@@ -44,7 +44,8 @@ FULL OUTER JOIN: Devuelve todas las filas de ambas tablas, rellenando con NULL e
 
 Las consultas combinadas JOIN son fundamentales en SQL para trabajar con bases de datos relacionales y extraer información de múltiples tablas de manera eficiente. Puedes personalizar tu consulta según tus necesidades específicas y las relaciones entre tus tablas.
 
-## COMBINACION INTERNA
+## **COMBINACION INTERNA**
+
 una combinación interna (INNER JOIN) en SQL es una operación que combina filas de dos o más tablas, incluyendo solo las filas que coinciden en función de una condición de unión específica. En otras palabras, un INNER JOIN recupera solo las filas que tienen valores coincidentes en ambas tablas que estás combinando.
 
 La sintaxis básica de un INNER JOIN es la siguiente:
@@ -87,7 +88,7 @@ En resumen, un INNER JOIN en SQL se utiliza para combinar filas de múltiples ta
 
 
 
-## COMBINACION EXTERNA
+## **COMBINACION EXTERNA**
 Una combinación externa (o JOIN externo) en SQL es una operación que combina filas de dos o más tablas, incluyendo tanto las filas que coinciden en la condición de unión como las filas que no coinciden en una de las tablas. Las combinaciones externas se utilizan para recuperar datos de una tabla incluso cuando no hay coincidencias en la otra tabla.
 
 Existen dos tipos principales de combinaciones externas en SQL:
@@ -134,7 +135,7 @@ La combinación externa puede ser diestra o siniestra, LEFT OUTER JOIN o RIGHT O
 Las combinaciones externas son útiles cuando necesitas obtener datos de una tabla incluso si no hay correspondencias en la otra tabla. Ayudan a mantener la integridad de los datos y a asegurarse de que no se pierda información importante en una consulta SQL.
 
 
-## UNIONES
+## **UNIONES**
 Las uniones (UNION en SQL) se utilizan para combinar los resultados de dos o más consultas en una sola tabla resultante. La consulta resultante de una unión incluirá todas las filas de las consultas individuales, eliminando duplicados. Las uniones son útiles cuando deseas combinar datos de múltiples tablas o consultas en un solo conjunto de resultados.
 
 Hay algunas reglas clave a tener en cuenta al utilizar UNION en SQL:
@@ -197,7 +198,7 @@ Es importante destacar que UNION elimina las filas duplicadas en el conjunto de 
 En resumen, UNION en SQL se utiliza para combinar los resultados de dos o más consultas en una sola tabla resultante, asegurando que las columnas sean compatibles y tengan el mismo orden en todas las consultas individuales. Esto es útil para consolidar datos de múltiples fuentes o tablas en una sola vista.
 
 
-## CRITERIOS PARA OPTIMIZAR ACCESOS A BD
+## **CRITERIOS PARA OPTIMIZAR ACCESOS A BD**
 Cada día se necesita procesar mayor cantidad de datos y obtener de manera más rápida y precisa la información. Muchos de los problemas de rendimiento se deben entre otras cosas al hardware, al software, al motor de base de datos y por sobre todo al diseño, índices y mala formulación de consultas SQL.
 
 En este apartado nos centraremos en estos últimos en donde siguiendo algunas recomendaciones veremos que se puede mejorar el tiempo de respuesta de nuestro motor de BD significativamente.
@@ -264,7 +265,7 @@ Los procedimientos almacenados son una alternativa rápida y mejor a las consult
 
 Se puede afinar una BD de varias formas, usando estadísticas de optimización, corriendo opciones de optimización, realizando tablas de sólo lectura, etc. Usualmente este trabajo lo realiza un administrador de BD. En la mayoría de los sistemas gestores de bases de datos existen herramientas de optimización. MySQL tiene la herramienta “MySQL query analyzer”, que le permitirá ejecutar consultas y observar su incidencia, para determinar lo que el SGBD hace con sus consultas.
 
-## LA OPTIMIZACION EN LA PRACTICA
+## **LA OPTIMIZACION EN LA PRACTICA**
 Para comprender mejor el concepto de la optimización, veremos a continuación una serie de ejemplos que se aplican en instrucciones SQL, mostrando en primer lugar el código no optimizado y luego el código aplicando los criterios de mejora en la instrucción SQL. Si se quiere consultar el nombre y el salario de los empleados del departamento de ventas:
 
 
@@ -343,7 +344,7 @@ El segundo SQL corregido es preferible al primero por varias razones:
 * **Legibilidad**: Utilizar INNER JOIN hace que el código sea más legible y autoexplicativo. Indica claramente que se está realizando una operación de unión entre las tablas, lo que facilita a otros desarrolladores comprender la lógica de la consulta.
 
 
-## ¿QUÉ SON LOS PROCEDIMIENTOS ALMACENADOS?
+## **¿QUÉ SON LOS PROCEDIMIENTOS ALMACENADOS?**
 
 Los procedimientos almacenados son un tipo de objeto de base de datos que contiene un conjunto de instrucciones SQL predefinidas y almacenadas en el sistema de gestión de bases de datos (DBMS). Estas instrucciones pueden incluir consultas, actualizaciones, inserciones y otras operaciones SQL. Los procedimientos almacenados se almacenan en la base de datos y se pueden ejecutar de forma repetida mediante una llamada desde una aplicación, un lenguaje de programación o directamente desde el gestor de bases de datos.
 

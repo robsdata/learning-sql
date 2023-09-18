@@ -1,4 +1,4 @@
-# ¿QUÉ SON LOS DISPARADORES?
+# **¿QUÉ SON LOS DISPARADORES?**
 ---
 Los disparadores, también conocidos como "triggers" en inglés, son objetos de base de datos que se utilizan en sistemas de gestión de bases de datos (DBMS) para automatizar acciones o ejecutar código en respuesta a eventos específicos que ocurren en una tabla o vista de la base de datos. Los disparadores se activan automáticamente cuando se cumple una condición o evento definido, como una inserción, actualización o eliminación de datos en una tabla.
 
